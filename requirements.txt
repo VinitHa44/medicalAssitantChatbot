@@ -1,0 +1,53 @@
+# FastAPI and Server
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+
+# LLM and Embeddings
+groq  # Llama 3 via Groq API
+sentence-transformers
+langchain
+langchain-community
+langchain-text-splitters
+
+# Vector Database
+pinecone
+
+# Database
+pymongo
+motor
+
+# Cache
+redis
+
+# Web Scraping
+requests
+beautifulsoup4
+lxml
+
+# Voice Processing
+openai-whisper
+faster-whisper
+# TTS  # Not compatible with Python 3.13+, use gTTS instead
+gTTS
+
+# Audio Processing
+pydub
+soundfile
+librosa
+
+# Utilities
+python-dotenv
+httpx
+aiofiles
+python-jose[cryptography]
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Logging and Monitoring
+loguru

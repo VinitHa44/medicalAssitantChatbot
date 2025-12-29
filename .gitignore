@@ -1,0 +1,193 @@
+# ==========================================
+# Python / Backend
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.pytest_cache/
+pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage/
+*.cover
+.hypothesis/
+
+# ==========================================
+# Node / React TypeScript / Frontend
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+bun.lockb
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Frontend testing
+coverage/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.fleet/
+
+# ==========================================
+# GitHub
+# ==========================================
+.github/
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+backend/logs/*
+!backend/logs/.gitkeep
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Database
+# ==========================================
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ==========================================
+# Audio files
+# ==========================================
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+backend/static/audio/*
+!backend/static/audio/.gitkeep
+static/audio/*
+!static/audio/.gitkeep
+
+# ==========================================
+# ML Models & AI
+# ==========================================
+backend/models/whisper/
+backend/models/tts/
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# ==========================================
+# Temporary files
+# ==========================================
+temp/
+tmp/
+backend/temp/*
+!backend/temp/.gitkeep
+*.tmp
+.temp/
+*~
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ==========================================
+# Docker
+# ==========================================
+docker-compose.override.yml
+.dockerignore
+
+# ==========================================
+# Misc
+# ==========================================
+*.bak
+*.swp
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.pyre/
+.pdm.toml
+.pdm-python
+.python-version
+
+# ==========================================
+# Vector DB & Cache dumps
+# ==========================================
+*.faiss
+*.index
+dump.rdb
+*.rdb
